@@ -5,7 +5,9 @@
 - [Johan Sebastian Pachon Mojica](https://github.com/violetavillamizara)
 
 # DERECHOS HUMANOS
-<center><i>Promoción de los Derechos Humanos en Colombia: Fomento de la Paz, Búsqueda de la Verdad y Garantía de Justicia </i></center>
+<center>
+    <i>Promoción de los Derechos Humanos en Colombia: Fomento de la Paz, Búsqueda de la Verdad y Garantía de Justicia </i>
+</center>
 
 ### Situacion Problema
 
