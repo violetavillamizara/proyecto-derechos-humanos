@@ -49,7 +49,7 @@ Dentro de las soluciones y propuestas planteadas a esta problematica, encontramo
  Los Estados tienen la responsabilidad de respetar, proteger y cumplir los derechos humanos de todas las personas dentro de su jurisdicción. Las organizaciones internacionales, como las Naciones Unidas, y las organizaciones no gubernamentales también desempeñan un papel importante en la promoción y protección de los derechos humanos en todo el mundo.
 
  Fuente: 
- - [Misión de Verificación de las Naciones Unidas en Colombia (UNVMC)](https:/colombia.unmissions.org/en)
+ - [Misión de Verificación de las Naciones Unidas en Colombia (UNVMC)](https://colombia.unmissions.org/en)
 
  - [Comisión Interamericana de Derechos Humanos (CIDH)](https://www.oas.org/es/cidh/default.asp)
  
