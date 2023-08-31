@@ -84,12 +84,7 @@
     text-align: center;
 }
 
-.bg-theme-page {
-    position: relative;
-}
-
 .card-theme {
-
     color: var(--color-white);
     padding: 1rem;
 }
@@ -230,7 +225,7 @@
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .hero-image__index {
         height: calc(100vh - 8rem);
     }
@@ -244,15 +239,15 @@
         background-size: cover;
         background-position: 50% 50%;
         background-image: url(../assets/img/index/theme-image.jpg);
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
     }
 
     .card-theme {
         width: 50%;
         max-width: 45rem;
         background-color: var(--primary-color);
-        position: absolute;
-        top: calc(70vh / 5);
-        left: 10%;
     }
 
     .index{
