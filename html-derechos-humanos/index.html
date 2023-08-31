@@ -1,138 +1,177 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Foro Informativo DDHH Colombia</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/global.css ">
-    <link rel="stylesheet" href="styles/index.css ">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Foro Informativo DDHH Colombia</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/global.css ">
+        <link rel="stylesheet" href="styles/index.css ">
+    </head>
 
-<body>
-    <!-- Cabecero -->
-    <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-md bg-white p-2">
-            <!-- Contenedor Responsive -->
-            <div class="container-navbar container-lg">
-                <!-- Contenedor de Logotipo -->
-                <div class="container-brand">
-                    <div class="container-img-brand">
-                        <a class="navbar-brand m-0" href="index.html">
-                            <img src="assets/img/logo-primary-color.svg" alt="Foro Informativo DDHH Colombia">
-                        </a>
+    <body>
+        <!-- Cabecero -->
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md bg-white p-2">
+                <!-- Contenedor Responsive -->
+                <div class="container-navbar container-lg">
+                    <!-- Contenedor de Logotipo -->
+                    <div class="container-brand">
+                        <div class="container-img-brand">
+                            <a class="navbar-brand m-0" href="index.html">
+                                <img src="assets/img/logo-primary-color.svg"
+                                    alt="Foro Informativo DDHH Colombia">
+                            </a>
+                        </div>
+                        <div class="text-brand d-none d-sm-block">
+                            <span>Foro Informativo</span>
+                            <span>DDHH Colombia</span>
+                        </div>
                     </div>
-                    <div class="text-brand d-none d-sm-block">
+                    <!-- Boton desplegable -->
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Indice de la pagina -->
+                    <div
+                        class="menu-nav navbar-collapse collapse p-3 text-center"
+                        id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" aria-current="page"
+                                href="index.html">Inicio</a>
+                            <div class="dropdown">
+                                <button
+                                    class="dropdown-toggle nav-link"
+                                    type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    DDHH
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="./views/intro-ddhh.html">¿Que son?</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./views/dificultades-ddhh.html">Dificultades en Colombia</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./views/organizaciones-ddhh.html">Organizaciones de DDHH</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./views/educacion-ddhh.html">Educación y Concientización</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./views/organizaciones-ddhh.html">Participación</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a class="nav-link" href="#">Foro Social</a>
+                            <a class="nav-link" href="#">Haz Tu Pregunta </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="hero-image hero-image__index">
+                <div class="text-hero-img">
+                    <span>Fomentando Paz, Verdad y Justicia</span>
+                </div>
+                <div class="container-btn-foro">
+                    <button class="btn-foro">
+                        Foro Social
+                    </button>
+                </div>
+            </div>
+            <div class="topics">
+                <div class="topic-element">
+                    <span>Derechos Humanos</span>
+                    <span>En Colombia</span>
+                </div>
+                <div class="topic-element">
+                    <span>Derechos Humanos</span>
+                    <span>Que son</span>
+                </div>
+                <div class="topic-element">
+                    <span>Derechos Humanos</span>
+                    <span>Preguntas</span>
+                </div>
+            </div>
+            <div class="theme-page">
+                <div class="bg-theme-page">
+                    <div class="card-theme">
+                        <span>Ejes Tematicos</span>
+                        <p>
+                            A través de preguntas significativas y recursos
+                            educativos, esperamos crear conciencia en la
+                            construcción de un mundo más justo y respetuoso para
+                            cada individuo. Únete a nosotros mientras
+                            exploramos juntos los diversos aspectos de los
+                            derechos humanos y trabajamos hacia un futuro más
+                            humano y equitativo para todos.
+                        </p>
+                    </div>
+                </div>
+                <div class="hero-image img-theme-page"></div>
+            </div>
+
+            <div class="container-phrase">
+                <div class="phrase">
+                    "Los derechos humanos son el cimiento sobre el cual se
+                    construye una sociedad justa, igualitaria y
+                    respetuosa de la dignidad de cada individuo."
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="index">
+                <ul>
+                    <li>
+                        <a href>Que son?</a>
+                    </li>
+                    <li>
+                        <a href>Dificultades en Colombia</a>
+                    </li>
+                    <li>
+                        <a href>Organizaciones de DDHH</a>
+                    </li>
+                    <li>
+                        <a href>Educación y concientización</a>
+                    </li>
+                    <li>
+                        <a href>Participación</a>
+                    </li>
+                </ul>
+                <div class="container-logo">
+                    <div class="text-logo">
                         <span>Foro Informativo</span>
                         <span>DDHH Colombia</span>
                     </div>
-                </div>
-                <!-- Boton desplegable -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Indice de la pagina -->
-                <div class="menu-nav navbar-collapse collapse p-3 text-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link" href="#">DDHH</a>
-                        <a class="nav-link" href="#">Foro Social</a>
-                        <a class="nav-link" href="#">Haz Tu Pregunta </a>
+                    <div class="container-img-logo">
+                        <img src="assets/img/logo-black-color.svg"
+                            alt="Foro Informativo DDHH Colombia">
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div class="hero-image hero-image__index">
-            <div class="text-hero-img">
-                <span>Fomentando Paz, Verdad y Justicia</span>
+            <div class="copyright">
+                <p>
+                    Copyright © 2023 Todos los Derechos Reservados
+                </p>
             </div>
-            <div class="container-btn-foro">
-                <button class="btn-foro">
-                    Foro Social
-                </button>
-            </div>
-        </div>
-        <div class="topics">
-            <div class="topic-element">
-                <span>Derechos Humanos</span>
-                <span>En Colombia</span>
-            </div>
-            <div class="topic-element">
-                <span>Derechos Humanos</span>
-                <span>Que son</span>
-            </div>
-            <div class="topic-element">
-                <span>Derechos Humanos</span>
-                <span>Preguntas</span>
-            </div>
-        </div>
-        <div class="theme-page">
-            <div class="bg-theme-page">
-                <div class="card-theme">
-                    <span>Ejes Tematicos</span>
-                    <p>
-                        A través de preguntas significativas y recursos educativos, esperamos crear conciencia en la
-                        construcción de un mundo más justo y respetuoso para cada individuo. Únete a nosotros mientras
-                        exploramos juntos los diversos aspectos de los derechos humanos y trabajamos hacia un futuro más
-                        humano y equitativo para todos.
-                    </p>
-                </div>
-            </div>
-            <div class="hero-image img-theme-page"></div>
-        </div>
-
-        <div class="container-phrase">
-            <div class="phrase">
-                "Los derechos humanos son el cimiento sobre el cual se construye una sociedad justa, igualitaria y
-                respetuosa de la dignidad de cada individuo."
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="index">
-            <ul>
-                <li>
-                    <a href="">Que son?</a>
-                </li>
-                <li>
-                    <a href="">Dificultades en Colombia</a>
-                </li>
-                <li>
-                    <a href="">Organizaciones de DDHH</a>
-                </li>
-                <li>
-                    <a href="">Educación y concientización</a>
-                </li>
-                <li>
-                    <a href="">Participación</a>
-                </li>
-            </ul>
-            <div class="container-logo">
-                <div class="text-logo">
-                    <span>Foro Informativo</span>
-                    <span>DDHH Colombia</span>
-                </div>
-                <div class="container-img-logo">
-                    <img src="assets/img/logo-black-color.svg" alt="Foro Informativo DDHH Colombia">
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>
-                Copyright © 2023 Todos los Derechos Reservados
-            </p>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-</body>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>

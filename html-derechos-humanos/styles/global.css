@@ -71,8 +71,12 @@ nav * {
     justify-content: space-around;
 }
 
-.nav-link {
+.nav-link, .dropdown {
     display: block;
+}
+
+.dropdown button{
+    width: 100%;
 }
 
 .nav-link:hover {
@@ -80,6 +84,21 @@ nav * {
     color: var(--color-white);
 }
 
+.dropdown-menu{
+    width: 100%;
+    border-radius: 0px;
+    font-size: 1.6rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.dropdown-menu li a{ 
+    font-family: var(--font-title-1);
+    font-weight: 500;
+    word-wrap: break-word;
+    white-space: normal;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.157);
+}
 
 /* ______________ HERO IMAGE _____________ */
 
@@ -92,7 +111,7 @@ nav * {
 /* ______________ MEDIA QUERIES _____________ */
 
 @media screen and (min-width: 768px) {
-    .nav-link {
+    .nav-link, .dropdown {
         width: 25%;
     }
 }
