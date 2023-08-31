@@ -14,7 +14,7 @@
 }
 
 .text-hero-img span {
-    max-width: 35rem;
+    max-width: 50rem;
     display: block;
     color: var(--color-white);
     font-family: var(--font-title-1);
@@ -36,6 +36,11 @@
     color: var(--color-white);
     font-size: 4.5vw;
     font-family: var(--font-title-1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-foro:hover{
+    background-color: var(--primary-color-dark);
 }
 
 /* __________ TOPICS ___________ */
@@ -162,19 +167,6 @@
     font-size: 4vw;
 }
 
-.copyright{
-    height: 4vh;
-    background-color: var(--primary-color-dark);
-    color: var(--color-white);
-    font-size: 1.3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.copyright p{
-    margin: 0;
-}
 
 /* ___________ MEDIA QUERIES _____________ */
 

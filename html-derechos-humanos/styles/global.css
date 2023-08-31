@@ -40,6 +40,11 @@ nav * {
     font-weight: 600;
 }
 
+::selection{
+    background-color: var(--color-black);
+    color: var(--color-white);    
+}
+
 /* _________LOGOTIPO___________ */
 .container-brand {
     width: 30%;
@@ -107,6 +112,23 @@ nav * {
     background-size: cover;
     background-position: 50% 50%;
 }
+
+/* _________ FOOTER COPYRIGHT _________ */
+
+.copyright{
+    padding: 1rem 0px;
+    background-color: var(--primary-color-dark);
+    color: var(--color-white);
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p{
+    margin: 0;
+    text-align: center;
+}
+
 
 /* ______________ MEDIA QUERIES _____________ */
 
