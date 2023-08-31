@@ -98,11 +98,11 @@ En el inicio se dara una breve introduccion sobre los ejes tematicos de la pagin
 
 
 ##### Version Desktop
-<img src="maquetacion-web/Seccion_inicio_desktop.png" alt="Inicio Mobile" width="500px">
+<img src="maquetacion-web/seccion_inicio_desktop.png" alt="Inicio Mobile" width="500px">
 
 
 ##### Version Mobile
-<img src="maquetacion-web/Seccion_inicio_mobile.png" alt="Inicio Mobile" width="150px">
+<img src="maquetacion-web/seccion_inicio_mobile.png" alt="Inicio Mobile" width="150px">
 
 
 ### Temas de Interes.
