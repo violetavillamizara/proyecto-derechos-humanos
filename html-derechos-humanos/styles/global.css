@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
 
+/* _________ GENERAL _____________ */
+
 :root {
     --font-title-1: 'Averia Serif Libre', cursive;
     --font-title-2: 'Sansita', sans-serif;
@@ -40,12 +42,33 @@ nav * {
     font-weight: 600;
 }
 
+label{
+    font-family: var(--font-title-2);
+    font-size: 1.5rem;
+}
+
+input, textarea{
+    outline: none;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    font-family: var(--font-paragraph);
+    font-size: 2rem;
+}
+
 ::selection {
     background-color: var(--color-black);
     color: var(--color-white);
 }
 
-/* _________LOGOTIPO___________ */
+.center{
+    text-align: center;
+}
+
+.bg-grey{
+    background-color: #f8f8f8;
+}
+
+/* _________LOGOTIPOS___________ */
 .container-brand {
     width: 30%;
     display: flex;
@@ -68,6 +91,7 @@ nav * {
     color: var(--primary-color);
     font-weight: 600;
 }
+
 
 /* __________ NAVEGACION ____________ */
 
@@ -114,26 +138,40 @@ nav * {
     background-position: 50% 50%;
 }
 
-/* _________ BOTON FORO  ___________*/
+/* _________ BOTONES  ___________*/
+.btns{
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    font-family: var(--font-title-1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btns:hover{
+    background-color: var(--primary-color-dark);
+}
 
 .container-btn-foro {
     margin-top: 2rem;
     padding-left: 10vw;
 }
 
+.container-btn-foro__center{
+    padding-left: 0;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .btn-foro {
     display: block;
-    text-align: center;
     width: 50%;
     max-width: 25rem;
     padding: 0.5rem 0rem;
-    border: none;
     border-radius: 2px;
-    background-color: var(--primary-color);
-    color: var(--color-white);
     font-size: 5vw;
-    font-family: var(--font-title-1);
-    transition: background-color 0.3s ease-in-out;
 }
 
 /* _________ FOOTER COPYRIGHT _________ */

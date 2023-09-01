@@ -21,6 +21,70 @@
     max-width: 60rem;
 }
 
+/* ____________ ANSWERS ACCORDION ___________ */
+
+.container-preguntas{
+    border-radius: 1rem;
+    padding: 5rem;
+}
+.accordion-button{
+    display: flex;
+}
+
+.name-person{
+    display: block;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.name-person::before{
+    content: "Preguntado por: ";
+    font-weight: 600;
+    font-style: initial;
+}
+
+.accordion-logo{
+    display: none;
+}
+
+.logo{
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    max-width: 6rem;
+    min-width: 6rem;
+    border-radius: 18rem;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+    background-position: 50% 50%;
+}
+
+.logo__educacion{
+    background-image: url(../assets/img/informativo/logo-educacion.png);
+}
+
+.logo__derechos{
+    background-image: url(../assets/img/informativo/logo-derechos-humanos.png);
+}
+
+.logo__igualdad{
+    background-image: url(../assets/img/informativo/logo-igualdad.png);
+}
+
+.logo__libertad-expresion{
+    background-image: url(../assets/img/informativo/logo-libertad-expresion.png);
+}
+
+.logo__paz{
+    background-image: url(../assets/img/informativo/logo-paz.png);
+}
+
+.logo__trabajo{
+    background-image: url(../assets/img/informativo/logo-trabajo.png);
+}
+
+
+/* ____________ MEDIA QUERIES ___________ */
 
 @media screen and (min-width: 576px) {
 
@@ -31,11 +95,17 @@
     .text-hero-img span {
         font-size: 5rem;
     }
+
+/* _______________ ANSWERS ACCORDION _____________ */
+
+.accordion-logo{
+    display: block;
+}    
+
 }
 
 @media screen and (min-width: 1200px) {
     .hero-image__foro {
         background-image: url(../assets/img/informativo/hero-image-preguntas.jpg);
-
     }
 }

@@ -1,57 +1,84 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: white;
+.container-form{
+    border-radius: 1rem;
+    padding: 1rem 0 1rem 0;
+    max-width: 768px;
 }
 
-header {
-    background-color: black;
-    padding: 1rem;
-    text-align: center;
+.container-form h1{
+    font-family: var(--font-title-2);
 }
 
-h2 {
-    font-family: 'Averia Serif Libre', cursive;
-    text-align: center;
-    margin-top: 20px;
+.container-form form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: lightgrey;
-    border-radius: 20px;
-}
-
-
-label {
+.input-data label, .input-data input, .input-data textarea{
     display: block;
-    margin-top: 10px;
-    font-family: 'Averia Serif Libre', cursive;
 }
 
-input{
-    background-color: lightcyan;
-    width: 50%;
-    padding: 10px;
-    margin-top: 5px;
-    border: #ccc;
-    border-radius: 5px;
+.input-data{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin: 1rem 0 1rem 0;
 }
 
-button{
-    padding: 10px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 10px;
+.input-data label{
+    width: 80%;
+    margin: auto;
+    font-size: 5vw;
+    text-align: center;
 }
 
-footer {
-    background-color: black;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.input-data input{
+    width: 80%;
+    margin: auto;
+}
+
+.input-data textarea{
+    width: 80%;
+    margin: auto;
+    resize: vertical;
+}
+
+.container-btn-submit{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.btn-submit__preguntas{
+    width: 80%;
+    font-size: 5vw;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+
+/* ___________ MEDIA QUERIES ____________ */
+@media screen and (min-width: 576px) {
+    .container-form{
+        margin: 2rem auto;
+    }
+
+    .container-form form{
+        flex-direction: row;
+    }
+
+    .input-data{
+        width: 50%;
+    }
+
+    .input-data:has(textarea), .container-btn-submit{
+        width: 100%;
+    }
+
+    .input-data label, .btn-submit__preguntas{
+    font-size: 2rem;
+    }
+
+    .input-data textarea{
+        width: 90%;
+    }
 }

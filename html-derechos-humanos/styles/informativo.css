@@ -15,10 +15,6 @@ main p{
     margin: 0px 3vw;
 }
 
-.center{
-    text-align: center;
-}
-
 /* __________ TITULOS __________ */
 .main-title{
     font-size: 8vw;
@@ -71,11 +67,6 @@ main p{
     font-size: 10vw;
 }
 
-
-.btn-foro:hover{
-    background-color: var(--primary-color-dark);
-}
-
 /* _________ MEDIA QUERIES __________ */
 
 @media screen and (min-width: 576px) {
@@ -94,6 +85,17 @@ main p{
     .text-hero-img span {
         font-size: 5rem;
     }
+
+    .text-hero-img__center{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+} 
+
+    .text-hero-img__center span{
+        text-align: center;
+    }
+
 
     .btn-foro {
         font-size: 2rem;
