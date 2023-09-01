@@ -44,15 +44,30 @@
 }
 
 .container-btn-submit{
+    width: 100%;
     display: flex;
     justify-content: center;
     margin: 1rem 0 1rem 0;
 }
 
 .btn-submit__preguntas{
-    width: 80%;
+    width: 90%;
     font-size: 5vw;
     padding: 0.5rem 0 0.5rem 0;
+}
+
+.container-alert{
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    max-width: 768px;
+}
+
+.alert{
+    width: 100%;
+    font-size: 1.5rem;
 }
 
 
@@ -70,7 +85,7 @@
         width: 50%;
     }
 
-    .input-data:has(textarea), .container-btn-submit{
+    .container-btn-submit{
         width: 100%;
     }
 
@@ -80,5 +95,9 @@
 
     .input-data textarea{
         width: 90%;
+    }
+
+    .input-data__textarea{
+        width: 100%;
     }
 }

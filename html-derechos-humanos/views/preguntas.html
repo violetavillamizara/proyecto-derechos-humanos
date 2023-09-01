@@ -98,6 +98,25 @@
         </header>
 
         <main>
+            <div class="container-modal">
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body fs-2 text-center">
+                            Tu pregunta fue enviada con <span class="text-green"><b>éxito</b></span>.
+                        </div>
+                        <div class="modal-footer d-flex justify-content-center">
+                            <button type="button" class="btn btns btn-primary fs-2" data-bs-dismiss="modal">Ok, Perfecto</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="container-form bg-grey">
                 <h1 class="main-title center">Realiza Tu Pregunta</h1>
                 <form>
@@ -128,7 +147,7 @@
                             placeholder="Escribe tu email"
                             required />
                     </div>
-                    <div class="input-data">
+                    <div class="input-data input-data__textarea">
                         <label for="question">Pregunta</label>
                         <textarea
                             id="question"
@@ -137,7 +156,7 @@
                             required></textarea>
                         </div>
                     <div class="container-btn-submit">
-                        <button class="btns btn-submit__preguntas" type="submit">Enviar</button>
+                        <button class="btns btn-submit__preguntas" type="reset" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
                     </div>
                 </form>
             </div>

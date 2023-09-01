@@ -157,7 +157,7 @@ Una manera de hacer tus preguntas muy sencilla, el formulario consta de solo tre
 
 
 ### Tecnologias Utilizadas
-En la creación de nuestro proyecto, se aprovecho una combinación de tecnologías esenciales con el fin de darle vida al proyecto. Las cuales fueron:
+En la creación del proyecto, se aprovecho una combinación de tecnologías esenciales con el fin de darle vidaa. Las cuales fueron:
 
 1. **HTML** (HyperText Markup Language)
 2. **CSS** (Cascading Style Sheets)
