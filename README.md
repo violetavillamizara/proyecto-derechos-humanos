@@ -5,9 +5,9 @@
 - [Johan Sebastian Pachon Mojica](https://github.com/violetavillamizara)
 
 # DERECHOS HUMANOS
-<center>
+<p align="center">
     <i>Promoción de los Derechos Humanos en Colombia: Fomento de la Paz, Búsqueda de la Verdad y Garantía de Justicia </i>
-</center>
+</p>
 
 ### Situacion Problema
 
@@ -76,27 +76,27 @@ En última instancia, un foro social fomenta la participación, creando una comu
 ## Diseño
 
 La maquetación del sitio web sobre derechos humanos debe ser visualmente atractiva y evocadora. Utilizando colores suaves y tonos neutros como base puede transmitir seriedad y respeto, mientras que toques de colores vibrantes pueden resaltar elementos importantes como llamadas a la acción o aspectos clave de los derechos humanos.
- 
+
 #### Colores Principales
-<center>
+<p align="center">
     <img src="maquetacion-web/paleta_colores.png" alt="Paleta colores" width="400px">
-</center>
+</p>
 
 #### Tipografias
 La legibilidad y el estilo de las fuentes influyen en la experiencia del usuario y en la comunicación efectiva de la información. Las tipografías adecuadas pueden transmitir la seriedad y la autoridad necesarias para un tema tan importante como los derechos humanos.
 
 Las tipografias para la maquetacion web fueron:
 
-<center>
+<p align="center">
     <img src="maquetacion-web/tipografias.png" alt="Tipografias" width="500px">
-</center>
+</p>
 
 #### Imagotipo
 El diseño del logo debe ser memorable, significativo y capaz de comunicar los valores esenciales de los derechos humanos de manera instantánea.
 
-<center>
+<p align="center">
     <img src="maquetacion-web/logotipo.png" alt="Imagotipo" width="400px">
-</center>
+</p>
 
 
 ## Secciones de la Página
@@ -105,55 +105,55 @@ En el inicio se dara una breve introduccion sobre los ejes tematicos de la pagin
 
 
 ##### Version Desktop
-<center>
+<p align="center">
     <img src="maquetacion-web/seccion_inicio_desktop.png" alt="Inicio Mobile" width="500px">
-</center>
+</p>
 
 ##### Version Mobile
-<center>
+<p align="center">
     <img src="maquetacion-web/seccion_inicio_mobile.png" alt="Inicio Mobile" width="150px">
-</center>
+</p>
 
 ### Temas de Interes.
 Sección de interés e información, aquí nos redirigimos desde el inicio de la página, una estructura muy sencilla y clara con una imágen alusiva y un texto conciso al tema a tratar, al final de la página se invita a acceder al foro social.
 
 
 ##### Version Desktop
-<center>
+<p align="center">
     <img src="maquetacion-web/seccion_temas_desktop.png" alt="Temas a interes Desktop" width="500px">
-</center>
+</p>
 
 ##### Version Mobile
-<center>
+<p align="center">
     <img src="maquetacion-web/seccion_temas_mobile.png" alt="Temas a interes Mobile" width="150px">
-</center>
+</p>
 
 ### Foro Social
 En este espacio, se lleva a cabo el proceso de retroalimentación en relación a las consultas de la comunidad. Se incorpora una nueva sección que tiene como propósito incentivar la participación en nuestro foro, animando a los usuarios a formular preguntas acerca de Derechos Humanos. Además, al final de la seccion todas las preguntas planteadas en formato desplegable con sus respectivas respuestas.
 
 ##### Version Desktop
-<center>
+<p align="center">
     <img src="maquetacion-web/seccion_foro_desktop.png" alt="Foro Social Desktop" width="500px">
-</center>
+</p>
 
 ##### Version Mobile
-<center>
+<p align="center">
     <img src="maquetacion-web/seccion_foro_mobile.png" alt="Foro Social Mobile" width="150px">
-</center>
+</p>
 
 ### Formulario de Preguntas
 Una manera de hacer tus preguntas muy sencilla, el formulario consta de solo tres datos para realizar tu pregunta: Nombre, Apellido y tu pregunta. Y en la parte inferior una seccion que invita a visitar el foro social con las preguntas de otros usuarios.
 
 ##### Version Desktop
-<center>
-    <img src="maquetacion-web/seccion_pregunta_desktop.png" alt="Formulario de Preguntas" width="500px">
-</center>
+<p align="center">
+    <img src="maquetacion-web/seccion_preguntas_desktop.png" alt="Formulario de Preguntas" width="500px">
+</p>
 
 
 ##### Version Mobile
-<center>
-    <img src="maquetacion-web/seccion_pregunta_mobile.png" alt="Formulario de Preguntas" width="150px">
-</center>
+<p align="center">
+    <img src="maquetacion-web/seccion_preguntas_mobile.png" alt="Formulario de Preguntas" width="150px">
+</p>
 
 
 ### Tecnologias Utilizadas
