@@ -21,24 +21,6 @@
     font-size: 10vw;
 }
 
-.container-btn-foro {
-    margin-top: 2rem;
-    padding-left: 10vw;
-}
-
-.btn-foro {
-    width: 50%;
-    max-width: 25rem;
-    height: 3.5rem;
-    border: none;
-    border-radius: 2px;
-    background-color: var(--primary-color);
-    color: var(--color-white);
-    font-size: 4.5vw;
-    font-family: var(--font-title-1);
-    transition: background-color 0.3s ease-in-out;
-}
-
 .btn-foro:hover{
     background-color: var(--primary-color-dark);
 }
@@ -173,10 +155,6 @@
 @media screen and (min-width: 576px) {
     .text-hero-img span {
         font-size: 5rem;
-    }
-
-    .btn-foro {
-        font-size: 2rem;
     }
 
     .topics {

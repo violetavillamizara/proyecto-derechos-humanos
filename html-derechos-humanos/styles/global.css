@@ -40,9 +40,9 @@ nav * {
     font-weight: 600;
 }
 
-::selection{
+::selection {
     background-color: var(--color-black);
-    color: var(--color-white);    
+    color: var(--color-white);
 }
 
 /* _________LOGOTIPO___________ */
@@ -76,11 +76,12 @@ nav * {
     justify-content: space-around;
 }
 
-.nav-link, .dropdown {
+.nav-link,
+.dropdown {
     display: block;
 }
 
-.dropdown button{
+.dropdown button {
     width: 100%;
 }
 
@@ -89,7 +90,7 @@ nav * {
     color: var(--color-white);
 }
 
-.dropdown-menu{
+.dropdown-menu {
     width: 100%;
     border-radius: 0px;
     font-size: 1.6rem;
@@ -97,7 +98,7 @@ nav * {
     overflow: hidden;
 }
 
-.dropdown-menu li a{ 
+.dropdown-menu li a {
     font-family: var(--font-title-1);
     font-weight: 500;
     word-wrap: break-word;
@@ -113,9 +114,31 @@ nav * {
     background-position: 50% 50%;
 }
 
+/* _________ BOTON FORO  ___________*/
+
+.container-btn-foro {
+    margin-top: 2rem;
+    padding-left: 10vw;
+}
+
+.btn-foro {
+    display: block;
+    text-align: center;
+    width: 50%;
+    max-width: 25rem;
+    padding: 0.5rem 0rem;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    font-size: 5vw;
+    font-family: var(--font-title-1);
+    transition: background-color 0.3s ease-in-out;
+}
+
 /* _________ FOOTER COPYRIGHT _________ */
 
-.copyright{
+.copyright {
     padding: 1rem 0px;
     background-color: var(--primary-color-dark);
     color: var(--color-white);
@@ -124,16 +147,24 @@ nav * {
     justify-content: center;
 }
 
-.copyright p{
+.copyright p {
     margin: 0;
     text-align: center;
 }
 
 
 /* ______________ MEDIA QUERIES _____________ */
+@media screen and (min-width: 576px) {
+    .btn-foro {
+        font-size: 2rem;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
-    .nav-link, .dropdown {
+
+    .nav-link,
+    .dropdown {
         width: 25%;
     }
 }
